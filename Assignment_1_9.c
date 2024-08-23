@@ -7,11 +7,12 @@ int main()
     printf("enter the number to calculate the factorial = \n");
     scanf("%d", &num);
 
-    while(i <= 1){
-        i = num;
-            factorial *= i;
-            i--;
+    if(num < 0){
+        printf("Factorial is not define for negative number\n");
     }
-    printf("%d is the factorial value \n",factorial);
+    for(int i = num; i > 1; i--){
+        factorial *= i;
+    }
+    printf("%llu is the factorial value \n",factorial);
     return 0;
 }
