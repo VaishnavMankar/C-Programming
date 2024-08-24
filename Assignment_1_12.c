@@ -7,11 +7,13 @@ int main()
 
      a = 0;
      b = 1;
-     fot(i = 1; i <= n; i++){
+     fot(i = 1; i <= n; i++)
+     {
         printf("%d",a);
         result = a + b;
         a = b;
         b = result;
      }
+     printf("\n");
      return 0;
 }
