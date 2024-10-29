@@ -16,4 +16,5 @@ int main()
     else{
         printf("Error! Division by zero is not possible\n");
     }
+    return 0;
 }
