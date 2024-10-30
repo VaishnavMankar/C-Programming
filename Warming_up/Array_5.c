@@ -13,8 +13,6 @@ int main()
                 sum += matrix[i][j];
             }
         }
-        // printf("%d",sum);
-        // sum = 0;
     }    
     printf("%d\n",sum);
     return 0;
