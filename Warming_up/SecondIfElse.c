@@ -13,4 +13,5 @@ int main()
     else{
         printf("%d is the largest number",a);
     }
+    return 0;
 }

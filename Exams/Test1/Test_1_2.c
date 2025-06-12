@@ -7,5 +7,4 @@ int main(){
     ans2 = ans/x;
     printf("%d",ans2);
     return 0;
-    
 }
