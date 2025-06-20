@@ -1,5 +1,5 @@
 //7. WAP to create and read a dynamic NxM 2D array from user and
-//a. multiply the first row by 2 and add it to the second row#include <stdio.h>
+//a. multiply the first row by 2 and add it to the second row
 
 #include <stdlib.h>
 
