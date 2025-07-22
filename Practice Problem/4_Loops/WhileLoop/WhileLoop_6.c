@@ -1,4 +1,4 @@
-// 6. Sumof Digits in a Number
+// 6. Sum of Digits in a Number
 
 #include <stdio.h>
 
